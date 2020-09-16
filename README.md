@@ -2,7 +2,7 @@
     <img 
       style="width: 100%" 
       alt="logo" 
-      src="./src/images/4.png" 
+      src="./src/assets/images/noise.png" 
     />
 </div>
 
@@ -10,7 +10,7 @@
   align="center"
   style="font-size: 3rem; font-family: 'Helvetica'" 
 >
-  3D Primitives Experiment
+  boilerplate-p5js-react
 </p>
 
 <p align="center">
@@ -24,7 +24,6 @@ This project was developed with the following technologies:
 
 -  [React](https://reactjs.org/)
 -  [react-p5](https://github.com/Gherciu/react-p5#readme)
--  [react-id-swiper](https://github.com/kidjp85/react-id-swiper#readme)
 -  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
 ## :wrench: How To Use
@@ -33,10 +32,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saulofilho/3d-primitives-experiment
+$ git clone https://github.com/saulofilho/boilerplate-p5js-react
 
 # Go into the repository
-$ cd 3d-primitives-experiment
+$ cd boilerplate-p5js-react
 
 # Install dependencies
 $ yarn install
