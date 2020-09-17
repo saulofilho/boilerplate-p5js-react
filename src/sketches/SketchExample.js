@@ -33,15 +33,17 @@ export default class SketchTorus extends Component {
       }
     }
   
-    y = 0;
-    for (x = 0; x < img.width; x++) {
-      writeColor(img, x, y, 255, 0, 0, 255);
-    }
-  
-    y = img.height - 1;
-    for (x = 0; x < img.width; x++) {
-      writeColor(img, x, y, 0, 255, 0, 255);
-    }
+    // red
+    // y = 0;
+    // for (x = 0; x < img.width; x++) {
+    //   writeColor(img, x, y, 255, 0, 0, 255);
+    // }
+
+    // green
+    // y = img.height - 1;
+    // for (x = 0; x < img.width; x++) {
+    //   writeColor(img, x, y, 0, 255, 0, 255);
+    // }
   
     img.updatePixels();
     p5.image(img, 0, 0);
